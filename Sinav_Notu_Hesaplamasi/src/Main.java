@@ -4,9 +4,10 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner input= new Scanner(System.in);
-        while (true) {
+
         System.out.print("Lütfen Adınızı Soyadınızı Giriniz=");
         String adsoyad=input.nextLine();
+        while (true) {
         System.out.print("Lütfen Quiz Notunuzu Giriniz=");
         int quiz=input.nextInt();
         System.out.print("Lütfen Vize Notunuzu Giriniz=");
