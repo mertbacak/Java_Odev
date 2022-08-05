@@ -6,7 +6,7 @@ public class Main {
         Scanner input= new Scanner(System.in);
 
         System.out.print("Lütfen Adınızı Soyadınızı Giriniz=");
-        String adsoyad=input.nextLine();
+        String adSoyad=input.nextLine();
         while (true) {
         System.out.print("Lütfen Quiz Notunuzu Giriniz=");
         int quiz=input.nextInt();
@@ -33,7 +33,7 @@ public class Main {
                 System.out.println("Sayın" + " " + adsoyad + " " + "Not Ortalamanız DD");
                 System.out.println("Sınıfta Geçtiniz");
                 break;
-            } else if (ortalama<45 && ortalama <=0) {
+            } else if (ortalama<45 && ortalama >=0) {
 
                 System.out.println("Sayın" + " " + adsoyad + " " + "Not Ortalamanız FF");
                 System.out.println("Sınıfta kaldınız");
